@@ -1,0 +1,9 @@
+AddDefaultCharset UTF-8
+RewriteEngine on
+RewriteCond %{REQUEST_URI} !=/robots.txt
+RewriteCond %{REQUEST_URI} !=/gen.php
+RewriteCond  %{REQUEST_URI}  !^/land/(.*)
+RewriteCond  %{REQUEST_URI}  !^/_thankyou/(.*)
+RewriteCond  %{REQUEST_URI}  !^/files/(.*)
+#RewriteCond %{REQUEST_URI} !=/i_files/
+RewriteRule ^(.*)$ index.php\?link=$1 [L,QSA]
