@@ -20,10 +20,8 @@
   <link rel="stylesheet" href="assets/tether/tether.min.css">
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+  </head>
   
-  
-  
-</head>
 <body>
   <section class="header15 cid-rWe68FSYmY mbr-fullscreen mbr-parallax-background" id="header15-4">
 
